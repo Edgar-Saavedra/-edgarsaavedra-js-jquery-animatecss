@@ -1,9 +1,10 @@
 const webpack = require('webpack'); //to access built-in plugins
 const path = require('path');
+const UglifyJSPlugin = require('uglifyjs-webpack-plugin')
 
 const config = {
     entry: {
-        'dist.1.9' : './src/1.9/index.js',
+        'dist.min.1.x' : './src/1.x/index.js',
     },
     output: {
         path: path.resolve(__dirname, 'dist/'),
@@ -12,6 +13,19 @@ const config = {
     externals: {
         'jquery': '$'
     },
+    plugins: [
+        new UglifyJSPlugin({
+            uglifyOptions: {
+                //mangle: false,
+                output: {
+                    comments: false,
+                    beautify: false,
+                },
+                //compress: {...options},
+                warnings: false
+            }
+        })
+    ],
     module: {
         rules: [
             {
