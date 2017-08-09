@@ -1,0 +1,43 @@
+{
+  "name": "edgarsaavedra-js-jquery-animatecss",
+  "version": "1.0.0",
+  "description": "A jquery plugin to integrate animate.css with waypoints",
+  "main": "./src/",
+  "author": "Edgar Saavedra",
+  "license": "MIT",
+  "keywords": [
+    "jquery",
+    "edgar",
+    "saavedra",
+    "animate.css",
+    "waypoints"
+  ],
+  "scripts": {
+    "test": "jest"
+  },
+  "dependencies": {
+    "jquery": "^1.9"
+  },
+  "devDependencies": {
+    "babel-core": "^6.25.0",
+    "babel-jest": "^20.0.3",
+    "babel-loader": "^6.4.1",
+    "babel-preset-es2015": "^6.24.1",
+    "babel-preset-react": "^6.24.1",
+    "babel-preset-stage-0": "^6.24.1",
+    "enzyme": "^2.9.1",
+    "grunt": "^0.4.5",
+    "grunt-cli": "^1.2.0",
+    "grunt-contrib-compass": "^0.5.0",
+    "grunt-contrib-concat": "^0.5.1",
+    "grunt-contrib-less": "^1.4.1",
+    "grunt-contrib-watch": "^0.6.1",
+    "grunt-webpack": "^3.0.2",
+    "grunt-webpack-dev-servr": "^1.0.0",
+    "jest-cli": "^20.0.4",
+    "jit-grunt": "^0.9.1",
+    "json-loader": "^0.5.4",
+    "style-loader": "^0.13.2",
+    "webpack": "^3.4.1"
+  }
+}
