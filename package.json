@@ -1,6 +1,6 @@
 {
   "name": "edgarsaavedra-js-jquery-animatecss",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A jquery plugin to integrate animate.css with waypoints",
   "main": "./src/",
   "author": "Edgar Saavedra",
